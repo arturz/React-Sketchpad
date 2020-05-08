@@ -1,8 +1,7 @@
 {
-  "name": "portrayal",
-  "version": "1.0.0",
+  "name": "react-sketchpad",
+  "version": "1.0.1",
   "private": true,
-  "homepage": "https://reski78.github.io/React-Sketchpad",
   "dependencies": {
     "fit.js": "^1.0.0",
     "history": "^4.7.2",
@@ -19,20 +18,13 @@
     "react-scripts": "1.0.17",
     "react-tap-event-plugin": "^3.0.2",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0",
-    "rxjs": "^5.5.6",
-    "serve": "^6.4.3",
-    "socket.io-client": "^2.0.4"
+    "redux-thunk": "^2.2.0"
   },
   "scripts": {
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:80",
-  "devDependencies": {
-    "gh-pages": "^1.1.0"
-  }
+  "proxy": "http://localhost:80"
 }

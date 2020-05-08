@@ -1,1 +1,2 @@
-## Check this out: [online demo](https://xout.github.io/React-Sketchpad)
+## [Sketchpad](https://react-sketchpad.now.sh/) built in React and Redux
+
